@@ -1,5 +1,7 @@
 /******** css-variabler *********/
-
+* {
+  margin: 0 auto;
+}
 p,
 h1,
 h2,
@@ -32,6 +34,8 @@ header {
 }
 header p {
   color: white;
+  padding-top: 70px;
+  font-size: 20px;
 }
 
 #hjem {
