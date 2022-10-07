@@ -126,13 +126,13 @@ section {
 
 /*Mobile*/
 @media (max-width: 600px) {
-  #section_gin {
+  #section_splash {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     color: white;
   }
-  .billede_gin {
+  .billede_splash {
     grid-column: 2/2;
     grid-row: 2/3;
   }
