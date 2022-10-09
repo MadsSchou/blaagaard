@@ -10,7 +10,7 @@ ul,
 button {
   font-family: "Source Sans Pro", sans-serif;
   letter-spacing: 1px;
-  color: #ffffff;
+  color: #1a1952;
   list-style: none;
 }
 
@@ -24,7 +24,7 @@ img {
   height: auto;
 }
 body {
-  background-color: #eba8ef;
+  background-color: #f9edfa;
 }
 header {
   display: flex;
@@ -125,7 +125,7 @@ footer ul {
 .footer-col h5 {
   font-family: trajan-pro-3, serif;
   font-size: 1.2rem;
-  color: #ffffff;
+  color: #1a1952;
   margin-bottom: 35px;
   font-weight: 800;
   position: relative;
@@ -143,21 +143,21 @@ footer ul {
 .footer-col ul li {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #1a1952;
 }
 .footer-col ul li a {
   font-size: 1rem;
   text-transform: capitalize;
-  color: #ffffff;
+  color: #1a1952;
   text-decoration: none;
   font-weight: 300;
-  color: #ffffff;
+  color: #1a1952;
   display: block;
   transition: all 0.3s ease;
 }
 
 .copyright {
-  color: white;
+  color: #1a1952;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 0px;
