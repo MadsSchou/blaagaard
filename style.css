@@ -19,7 +19,6 @@ a {
 }
 
 section {
-  color: white;
   text-decoration: none;
 }
 .knap {
@@ -42,7 +41,6 @@ section {
 #section_splash {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  color: white;
 }
 
 .billede_splash {
@@ -70,7 +68,6 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  color: white;
 }
 
 .billede_podcast {
@@ -130,7 +127,6 @@ section {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    color: white;
   }
   .billede_splash {
     grid-column: 2/2;
