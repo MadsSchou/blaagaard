@@ -39,44 +39,15 @@ section {
 
 #section_2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-.tekst_2 {
-  grid-column: 2/6;
-  align-items: left;
-  grid-row: 1/1;
-  margin-left: 2px;
-}
-.video_2 {
-  grid-column: 3/5;
-  align-items: center;
-  grid-row: 1/1;
+  grid-template-columns: 1fr 1fr;
 }
 #section_podcast {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   padding: 15px;
 }
 
-.billede_podcast {
-  grid-column: 2/5;
-  align-items: center;
-  grid-row: 1/1;
-}
-.tekst_podcast {
-  grid-column: 2/4;
-  align-items: center;
-  grid-row: 2/2;
-  padding: 15px;
-}
-.tekst_podcast2 {
-  grid-column: 4/5;
-  align-items: center;
-  grid-row: 2/2;
-  padding-top: 100px;
-  padding-left: 150px;
-}
 #section_episoder {
   display: grid;
   grid-template-columns: 1fr 1fr;
