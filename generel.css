@@ -71,7 +71,7 @@ h4 {
   color: #b0b0b0;
 }
 .main-menu a:hover {
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 .main-menu ul {
   display: flex;
@@ -80,12 +80,12 @@ h4 {
   padding: 0;
   text-align: end;
 }
-a :hover {
-  text-decoration: underline;
-  color: white;
-  text-decoration-color: #eba8ef;
-  text-decoration-thickness: 4px;
-  text-underline-offset: 5px;
+a:hover {
+  text-decoration: underline !important;
+  color: white !important;
+  text-decoration-color: #eba8ef !important;
+  text-decoration-thickness: 4px !important;
+  text-underline-offset: 5px !important;
 }
 
 /* burgermenu */
@@ -173,6 +173,7 @@ footer ul {
   color: #1a1952;
   padding-right: 250px;
   color: white;
+  text-align: left;
 }
 .footer-col ul li a {
   font-size: 1rem;
@@ -181,7 +182,6 @@ footer ul {
   text-decoration: none;
   font-weight: 300;
   display: block;
-  transition: all 0.3s ease;
   color: white;
   margin-top: 1rem;
 }
