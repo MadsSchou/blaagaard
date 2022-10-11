@@ -47,6 +47,9 @@ section {
   grid-template-rows: 1fr;
   padding: 15px;
 }
+.tekst_podcast {
+  padding-top: 100px;
+}
 
 #section_episoder {
   display: grid;
