@@ -4,10 +4,15 @@
 main {
   margin: 0;
 }
-section {
-  margin-inline: 25vh;
-  margin-block: 15vh;
-  text-decoration: none;
+figure {
+  max-width: 100%;
+}
+@media (min-width: 600px) {
+  section {
+    margin-inline: 15vh;
+    margin-block: 15vh;
+    text-decoration: none;
+  }
 }
 body {
   background-color: black;
@@ -169,13 +174,7 @@ input {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     color: white;
-    margin: 30px;
   }
-  .billede_splash {
-    grid-column: 2/2;
-    grid-row: 2/3;
-  }
-
   .fortune-wheel {
     display: grid;
     grid-template-columns: 1fr;
@@ -197,17 +196,12 @@ input {
   }
 
   #section_2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    display: block;
     color: white;
     margin: 10px;
   }
 
   .tekst_2 {
-    grid-column: 2/3;
-    align-items: center;
-    grid-row: 2/3;
   }
 
   .video_2 {
@@ -246,5 +240,8 @@ input {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+  }
+  p {
+    padding: 10px;
   }
 }
