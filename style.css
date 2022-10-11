@@ -63,10 +63,7 @@ input {
   margin: 8px 0;
   box-sizing: border-box;
 }
-.fortune-wheel {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+
 #app {
   position: relative;
 }
@@ -83,12 +80,12 @@ input {
   z-index: 2;
 }
 .wheel {
-  width: 100%;
+  width: 40%;
   display: flex;
   z-index: 1;
 }
 .button {
-  width: 40%;
+  width: 16%;
   height: 10%;
   margin: 40px auto;
   cursor: pointer;
@@ -100,7 +97,6 @@ input {
     /* White glow */ 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
   font-size: 64px;
   justify-content: center;
-  align-items: center;
   border-radius: 10px;
 }
 .button:hover {
