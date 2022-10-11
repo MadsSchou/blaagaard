@@ -11,6 +11,11 @@ img {
   gap: 40px;
   padding-top: 40px;
 }
+hr {
+  background-color: #eba8ef;
+  padding: 2px;
+  margin-bottom: 5px;
+}
 
 .video_1 {
   grid-column: 1/2;

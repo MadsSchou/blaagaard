@@ -3,6 +3,10 @@
 * {
   margin: 0 auto;
 }
+@font-face {
+  font-family: "druk";
+  src: url("fonts/druk-medium-trail-webfront.woff") format("woff");
+}
 html {
   --lyserød-color: #f9edfa;
   --lilla-color: #1a1952;
@@ -15,10 +19,15 @@ h3,
 h4,
 ul,
 button {
-  font-family: "Source Sans Pro", sans-serif;
   letter-spacing: 1px;
   color: #1a1952;
   list-style: none;
+  font-family: "druk", sans-serif;
+}
+hr {
+  background-color: #eba8ef;
+  padding: 2px;
+  margin-bottom: 5px;
 }
 
 p {
@@ -39,6 +48,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   background-color: #1a1952;
+  padding-block: 1rem;
 }
 header p {
   color: white;
@@ -69,6 +79,13 @@ h4 {
   list-style: none;
   padding: 0;
   text-align: end;
+}
+a :hover {
+  text-decoration: underline;
+  color: white;
+  text-decoration-color: #eba8ef;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 5px;
 }
 
 /* burgermenu */
