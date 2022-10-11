@@ -171,7 +171,7 @@ footer ul {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 10px;
   color: #1a1952;
-  padding-right: 250px;
+  padding-right: 300px;
   color: white;
   text-align: left;
 }
@@ -184,6 +184,7 @@ footer ul {
   display: block;
   color: white;
   margin-top: 1rem;
+  text-align: left;
 }
 
 .copyright {
