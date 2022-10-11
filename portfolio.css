@@ -7,6 +7,11 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
 }
+hr {
+  background-color: #eba8ef;
+  padding: 2px;
+  margin-bottom: 5px;
+}
 
 .video_1 {
   grid-column: 1/7;
