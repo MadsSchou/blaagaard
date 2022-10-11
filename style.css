@@ -156,6 +156,7 @@ input {
 .button:hover {
   opacity: 0.8;
 }
+
 .blur {
   animation: blur 10s;
 }
@@ -169,6 +170,31 @@ input {
   100% {
     filter: blur(0px);
   }
+}
+
+.button1 {
+  width: 35%;
+  height: 10%;
+  margin: 40px auto;
+  cursor: pointer;
+  display: flex;
+  background-color: #19056c;
+  color: #1a1952;
+  -webkit-text-stroke: 2px white;
+  justify-content: center;
+  border-radius: 100px;
+}
+.button2 {
+  width: 100%;
+  height: 15%;
+  margin: 40px auto;
+  cursor: pointer;
+  display: flex;
+  background-color: #19056c;
+  color: #1a1952;
+  -webkit-text-stroke: 2px white;
+  justify-content: center;
+  border-radius: 100px;
 }
 
 /*Mobile*/
