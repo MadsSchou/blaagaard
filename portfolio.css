@@ -8,8 +8,8 @@ img {
 #section_portfolio {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 25px;
-  padding-top: 25px;
+  gap: 40px;
+  padding-top: 40px;
 }
 
 .video_1 {
