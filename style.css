@@ -163,16 +163,24 @@ input {
     grid-row: 2/3;
   }
 
-  #section_splash {
+  .fortune-wheel {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     color: white;
-    margin: 10px;
+    margin: 30px;
   }
-  .billede_splash {
-    grid-column: 2/2;
+  .wheel {
+    grid-column: 1/1;
+    grid-row: 1/1;
+  }
+  .marker {
+    grid-column: 1/1;
     grid-row: 2/3;
+  }
+  .instructions {
+    grid-column: 1/1;
+    grid-row: 2/2;
   }
 
   #section_2 {
