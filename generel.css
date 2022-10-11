@@ -1,10 +1,13 @@
 /******** css-variabler *********/
 
-
-
 * {
   margin: 0 auto;
 }
+html {
+  --lyserød-color: #f9edfa;
+  --lilla-color: #1a1952;
+}
+
 p,
 h1,
 h2,
@@ -44,6 +47,7 @@ header p {
 }
 h4 {
   color: #1a1952;
+  margin: 5vh;
 }
 #hjem {
   font: italic;
@@ -109,7 +113,7 @@ h4 {
 /*Footer*/
 .footer-container {
   max-width: 1170px;
-  background-color: var(--blue-color);
+  background-color: var(--lyserød-color);
   margin: auto;
 }
 .footer-row {
@@ -122,7 +126,7 @@ footer ul {
   padding: 0px;
 }
 .footer {
-  background-color: var(--blue-color);
+  background-color: var(--lyserød-color);
   padding: 60px 30px 10px 20px;
 }
 
@@ -143,7 +147,7 @@ footer ul {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: var(--cookie-color);
+  background-color: var(--lyserød-color);
   height: 2px;
   box-sizing: border-box;
   width: 75px;
