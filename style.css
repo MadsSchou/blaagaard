@@ -63,7 +63,10 @@ input {
   margin: 8px 0;
   box-sizing: border-box;
 }
-
+.col {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
 #app {
   position: relative;
 }
