@@ -13,16 +13,15 @@ body {
 }
 h2 {
   text-align: center;
-  font-family: Devanagari;
+  font-size: 35px;
 }
 h3 {
   border-bottom: 2px solid white;
-  font-family: Devanagari;
+  font-size: 35px;
 }
 h4 {
   text-align: center;
-  font-family: Devanagari;
-  font-size: 30px;
+  font-size: 45px;
 }
 a {
   text-decoration: none;
@@ -52,7 +51,8 @@ section {
   padding: 15px;
 }
 .tekst_podcast {
-  padding-top: 100px;
+  padding: 0;
+  padding-inline: 7vh;
 }
 
 #section_episoder {
@@ -100,7 +100,6 @@ input {
 .instructions {
   grid-column: 2/2;
   grid-row: 1/1;
-  padding-top: 40px;
   margin: 0px auto;
 }
 

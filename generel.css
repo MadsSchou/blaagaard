@@ -23,6 +23,7 @@ button {
   color: #1a1952;
   list-style: none;
   font-family: "druk", sans-serif;
+  margin-block: 5vh;
 }
 hr {
   background-color: #eba8ef;
@@ -32,7 +33,7 @@ hr {
 
 p {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   max-width: 65ch;
 }
 
@@ -48,7 +49,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   background-color: #1a1952;
-  padding-block: 1rem;
+  padding-block-start: 1rem;
 }
 header p {
   color: white;
