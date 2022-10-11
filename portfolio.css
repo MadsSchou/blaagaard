@@ -1,0 +1,46 @@
+* {
+  margin: 0 auto;
+}
+
+#section_portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.video_1 {
+  grid-column: 1/7;
+  align-items: center;
+  grid-row: 1/1;
+}
+.video_2 {
+  grid-column: 3/7;
+  align-items: center;
+  grid-row: 1/1;
+}
+
+.logo {
+  grid-column: 2/7;
+  align-items: center;
+  grid-row: 3/3;
+}
+
+.some1 {
+  grid-column: 1/7;
+  align-items: center;
+  grid-row: 4/4;
+  max-width: 200px;
+}
+.some2 {
+  grid-column: 3/7;
+  align-items: center;
+  grid-row: 4/4;
+  max-width: 200px;
+}
+
+.podcastlogo {
+  grid-column: 2/7;
+  align-items: center;
+  grid-row: 5/5;
+  max-width: 500px;
+}
