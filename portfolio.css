@@ -18,22 +18,26 @@
   align-items: center;
   grid-row: 1/1;
 }
-
-.logo {
+.lykkehjul {
+  grid-column: 2/7;
+  align-items: center;
+  grid-row: 2/2;
+  max-width: 400px;
+}
+.logo1 {
   grid-column: 2/7;
   align-items: center;
   grid-row: 3/3;
+  max-width: 500px;
 }
 
 .some1 {
   grid-column: 1/7;
-  align-items: center;
   grid-row: 4/4;
   max-width: 200px;
 }
 .some2 {
-  grid-column: 3/7;
-  align-items: center;
+  grid-column: 4/7;
   grid-row: 4/4;
   max-width: 200px;
 }
@@ -43,4 +47,40 @@
   align-items: center;
   grid-row: 5/5;
   max-width: 500px;
+}
+@media (max-width: 600px) {
+  #section_portfolio {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .video_1 {
+    grid-column: 1/2;
+    grid-row: 1/1;
+  }
+  .video_2 {
+    grid-column: 1/2;
+    grid-row: 2/2;
+  }
+  .lykkehjul {
+    grid-column: 1/2;
+    grid-row: 3/3;
+  }
+  .logo1 {
+    grid-column: 1/2;
+    grid-row: 4/4;
+  }
+  .some1 {
+    grid-column: 1/7;
+    grid-row: 5/5;
+  }
+  .some2 {
+    grid-column: 1/2;
+    grid-row: 6/6;
+  }
+  .podcastlogo {
+    grid-column: 1/2;
+    align-items: center;
+    grid-row: 7/7;
+  }
 }
