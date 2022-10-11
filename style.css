@@ -89,6 +89,12 @@ input {
   display: flex;
   z-index: 1;
 }
+.instructions {
+  grid-column: 2/2;
+  grid-row: 1/1;
+  padding-top: 40px;
+}
+
 .button {
   width: 40%;
   height: 10%;
