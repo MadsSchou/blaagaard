@@ -1,4 +1,7 @@
 /******** css-variabler *********/
+
+
+
 * {
   margin: 0 auto;
 }
@@ -18,6 +21,7 @@ button {
 p {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 15px;
+  max-width: 65ch;
 }
 
 img {
