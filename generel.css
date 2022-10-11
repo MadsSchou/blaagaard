@@ -128,22 +128,24 @@ a :hover {
 
 /*Footer*/
 .footer-container {
-  max-width: 1170px;
   background-color: var(--lyserød-color);
-  margin: auto;
+  color: white;
+  padding-top: 1rem;
 }
 .footer-row {
   display: flex;
   flex-wrap: wrap;
+  background-color: #1a1952;
+  color: white;
 }
 footer ul {
   list-style: none;
   width: fit-content;
   padding: 0px;
+  color: white;
 }
 .footer {
   background-color: var(--lyserød-color);
-  padding: 60px 30px 10px 20px;
 }
 
 .footer-col {
@@ -151,28 +153,22 @@ footer ul {
   padding: 0 20px;
 }
 .footer-col h5 {
+  margin-top: 1rem;
   font-family: trajan-pro-3, serif;
   font-size: 1.2rem;
   color: #1a1952;
-  margin-bottom: 35px;
+  margin-bottom: 0.2rem;
   font-weight: 300;
   position: relative;
+  color: white;
 }
-.footer-col h5::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  background-color: var(--lyserød-color);
-  height: 2px;
-  box-sizing: border-box;
-  width: 75px;
-}
+
 .footer-col ul li {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 10px;
   color: #1a1952;
   padding-right: 250px;
+  color: white;
 }
 .footer-col ul li a {
   font-size: 1rem;
@@ -182,10 +178,12 @@ footer ul {
   font-weight: 300;
   display: block;
   transition: all 0.3s ease;
+  color: white;
+  margin-top: 1rem;
 }
 
 .copyright {
-  color: #1a1952;
+  color: white;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 0px;
@@ -196,6 +194,7 @@ img.footer-logo {
   margin-top: -200px;
   max-width: 45%;
 }
+
 @media screen and (max-width: 600px) {
   .footer-col {
     width: 28%;
