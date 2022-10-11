@@ -23,6 +23,7 @@ button {
   color: #1a1952;
   list-style: none;
   font-family: "druk", sans-serif;
+  text-align: center;
 }
 hr {
   background-color: #eba8ef;
