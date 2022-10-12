@@ -53,12 +53,6 @@ a {
   grid-template-rows: 1fr;
   padding: 15px;
 }
-#section_podcast p {
-  color: white;
-}
-#section_podcast h2 {
-  color: white;
-}
 
 .tekst_podcast {
   padding: 0;
