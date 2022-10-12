@@ -48,8 +48,9 @@ a {
 #section_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-image: url("billeder/baggrund6.png");
+  background-image: url("billeder/baggrund5.png");
   background-size: cover;
+  height: 45vh;
 }
 #section_podcast {
   display: grid;
@@ -71,6 +72,7 @@ a {
   gap: 30px;
   background-image: url("billeder/baggrund5.png");
   background-size: cover;
+  height: 45vh;
 }
 .play_icon {
   width: 30px;
