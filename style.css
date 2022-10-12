@@ -69,7 +69,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
-  background-image: url("billeder/baggrund.png");
+  background-image: url("billeder/baggrund5.png");
   background-size: cover;
 }
 .play_icon {
