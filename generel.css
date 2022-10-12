@@ -99,7 +99,12 @@ a:hover {
 #textarea {
   resize: none;
 }
-
+.pod {
+  margin-top: 3em;
+}
+.tekst_podcast {
+  margin-top: 3em;
+}
 /* burgermenu */
 .toggle-btn {
   border: none;
