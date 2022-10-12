@@ -50,7 +50,7 @@ a {
   grid-template-columns: 1fr 1fr;
   background-image: url("billeder/baggrund5.png");
   background-size: cover;
-  height: 45vh;
+  height: 65vh;
 }
 #section_podcast {
   display: grid;
@@ -72,7 +72,7 @@ a {
   gap: 30px;
   background-image: url("billeder/baggrund5.png");
   background-size: cover;
-  height: 45vh;
+  height: 65vh;
 }
 .play_icon {
   width: 30px;
