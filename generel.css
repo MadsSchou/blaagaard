@@ -95,6 +95,11 @@ a:hover {
   text-underline-offset: 5px !important;
 }
 
+/* textarea  */
+#textarea {
+  resize: none;
+}
+
 /* burgermenu */
 .toggle-btn {
   border: none;
