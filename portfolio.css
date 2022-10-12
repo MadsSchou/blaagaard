@@ -6,7 +6,8 @@ img {
 }
 .portfolio-site {
   padding-top: 5vh;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 #section_portfolio {
@@ -22,7 +23,6 @@ hr {
   padding: 2px;
   margin-bottom: 5px;
 }
-
 .video_1 {
   grid-column: 1/2;
   grid-row: 1/2;
@@ -106,82 +106,31 @@ hr {
 
 @media (max-width: 600px) {
   #section_portfolio {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    margin: 30px;
+    display: block;
+    gap: 5vh;
+    margin: 1vh;
   }
-  .video_1 {
-    grid-column: 1/1;
-    grid-row: 1/1;
-  }
-  .video_2 {
-    grid-column: 1/1;
-    grid-row: 2/2;
-  }
-  .lykkehjul {
-    grid-column: 1/1;
-    grid-row: 3/3;
-  }
-
-  .some1 {
-    grid-column: 1/1;
-    grid-row: 4/4;
-  }
-  .some2 {
-    grid-column: 1/1;
-    grid-row: 5/5;
-  }
-  .podcastlogo {
-    grid-column: 1/1;
-    grid-row: 6/6;
-  }
-  .scene1 {
-    grid-column: 1/1;
-    grid-row: 7/7;
-  }
-  .scene2 {
-    grid-column: 1/1;
-    grid-row: 8/8;
-  }
-  .scene3 {
-    grid-column: 1/1;
-    grid-row: 9/9;
-  }
-  .klip1 {
-    grid-column: 1/1;
-    grid-row: 10/10;
-  }
-  .klip2 {
-    grid-column: 1/1;
-    grid-row: 11/11;
-  }
-  .model1 {
-    grid-column: 1/1;
-    grid-row: 12/12;
-  }
-  .model2 {
-    grid-column: 1/1;
-    grid-row: 13/13;
-  }
-  .model3 {
-    grid-column: 1/1;
-    grid-row: 7/8;
-  }
-  .model4 {
-    grid-column: 1/1;
-    grid-row: 14/14;
-  }
-  .model5 {
-    grid-column: 1/1;
-    grid-row: 15/15;
-  }
-  .model6 {
-    grid-column: 1/1;
-    grid-row: 16/16;
-  }
+  .video_1,
+  .video_2,
+  .lykkehjul,
+  .some1,
+  .some2,
+  .podcastlogo,
+  .podcastlogo2,
+  .scene1,
+  .scene2,
+  .scene3,
+  .scene4,
+  .klip1,
+  .klip2,
+  .model1,
+  .model2,
+  .model3,
+  .model4,
+  .model5,
+  .model6,
   .model7 {
-    grid-column: 1/1;
-    grid-row: 17/17;
+    gap: 5vh;
+    padding: 0;
   }
 }
