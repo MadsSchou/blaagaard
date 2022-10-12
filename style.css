@@ -278,40 +278,20 @@ input {
     max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr;
+    grid-row: 1fr 1fr;
     gap: 2%;
   }
   .episode_1 {
-    grid-column: 1/1;
+    grid-column: 1/2;
     grid-row: 1/1;
   }
   .episode_2 {
-    grid-column: 1/1;
-    grid-row: 1/1;
+    grid-column: 1/2;
+    grid-row: 2/2;
   }
-  .footer-col {
-    width: 28%;
-    padding: 0 10px;
+  .footer {
+    padding-top: 550px;
   }
-  .footer-col ul li {
-    font-size: 0.8rem;
-    margin-bottom: 10px;
-    color: white;
-    max-width: fit-content;
-  }
-  .footer-col ul li a {
-    font-size: 0.8rem;
-    text-decoration: none;
-    font-weight: 300;
-    display: block;
-    transition: all 0.3s ease;
-  }
-  .copyright {
-    text-align: center;
-    font-size: 0.6rem;
-    margin-top: 50px;
-    margin-bottom: 0px;
-  }
-
   input {
     width: 100%;
     padding: 12px 20px;
