@@ -148,7 +148,6 @@ input {
 .button {
   grid-column: 2/2;
   grid-row: 2/2;
-
   margin: 40px auto;
   cursor: pointer;
   display: flex;
@@ -158,7 +157,7 @@ input {
   /* text-shadow:
     /* White glow */
   /* 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;  */
-  font-size: 64px;
+  font-size: 44px;
   justify-content: center;
   border-radius: 10px;
   align-items: center;
@@ -272,6 +271,10 @@ input {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
+  .h1pod {
+    padding-top: 550px;
+  }
+
   .billede_podcast {
     grid-column: 1/2;
     grid-row: 3/3;
