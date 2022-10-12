@@ -48,7 +48,7 @@ a {
 #section_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-image: url("billeder/baggrund5.png");
+  background-image: url("billeder/baggrund6.png");
   background-size: cover;
 }
 #section_podcast {
@@ -56,7 +56,7 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   padding: 15px;
-  background-image: url("billeder/baggrund2.png");
+  background-image: url("billeder/baggrund5.png");
   background-size: cover;
 }
 
