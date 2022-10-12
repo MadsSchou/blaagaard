@@ -9,7 +9,7 @@ figure {
 }
 @media (min-width: 600px) {
   section {
-    margin-inline: 15vh;
+    margin-inline: 20vh;
     margin-block: 15vh;
     text-decoration: none;
   }
