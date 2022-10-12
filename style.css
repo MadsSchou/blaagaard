@@ -242,6 +242,13 @@ input {
     display: grid;
     grid-template-columns: 1fr;
   }
+  .wheel {
+    margin-top: 7rem;
+  }
+  .marker {
+    left: 45%;
+    top: 10%;
+  }
   .instructions {
     grid-column: 1/2;
     grid-row: 2/2;
@@ -289,8 +296,11 @@ input {
     grid-column: 1/2;
     grid-row: 2/2;
   }
+  .episodes {
+    height: 150vh;
+  }
   .footer {
-    padding-top: 550px;
+    padding-top: 50px;
   }
   input {
     width: 100%;
