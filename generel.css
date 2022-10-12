@@ -32,7 +32,10 @@ button {
   /* margin-block-end: 5vh; */
 }
 hr {
-  background-color: #eba8ef;
+  color: #db3eb1;
+  background-color: #db3eb1;
+  filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+
   padding: 2px;
   margin-bottom: 5px;
 }
@@ -91,10 +94,11 @@ h4 {
 }
 a:hover {
   text-decoration: underline !important;
-  color: white !important;
+  color: #db3eb1 !important;
   text-decoration-color: #eba8ef !important;
   text-decoration-thickness: 4px !important;
   text-underline-offset: 5px !important;
+  filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
 }
 
 /* textarea  */
