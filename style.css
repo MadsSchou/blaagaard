@@ -128,7 +128,7 @@ input {
 .marker {
   position: absolute;
   width: 50px;
-  left: 50%;
+  left: 48%;
   top: -10%;
   z-index: 2;
 }
