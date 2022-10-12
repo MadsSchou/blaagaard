@@ -28,7 +28,7 @@ button {
   color: #1a1952;
   list-style: none;
   font-family: "druk", sans-serif;
-  margin-block-end: 5vh;
+  /* margin-block-end: 5vh; */
 }
 hr {
   background-color: #eba8ef;
@@ -58,8 +58,7 @@ header {
 }
 header p {
   color: white;
-  padding-top: 150px;
-  font-size: 30px;
+  padding-top: 3em;
 }
 
 h4 {
@@ -79,9 +78,6 @@ h4 {
 /* mouse-over */
 .toggle-btn a:hover {
   color: #b0b0b0;
-}
-.main-menu a:hover {
-  /* color: #ffffff; */
 }
 .main-menu ul {
   display: flex;
