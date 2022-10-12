@@ -48,7 +48,7 @@ a {
 #section_2 {
   background-image: url("billeder/baggrund5.png");
   background-size: cover;
-  height: 45vh;
+  height: 65vh;
 }
 .section_2-content {
   max-width: 1200px;
@@ -76,7 +76,7 @@ a {
   gap: 30px;
   background-image: url("billeder/baggrund5.png");
   background-size: cover;
-  height: 45vh;
+  height: 65vh;
 }
 .episode-content {
   max-width: 1200px;
@@ -198,7 +198,6 @@ input {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     color: white;
-    margin: 30px;
   }
   .wheel {
     grid-column: 1/1;
@@ -229,7 +228,6 @@ input {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     color: white;
-    margin: 10px;
   }
   .billede_podcast {
     grid-column: 1/2;
@@ -247,7 +245,6 @@ input {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
-    margin: 20px;
   }
 
   input {
