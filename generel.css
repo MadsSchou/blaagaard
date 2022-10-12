@@ -95,7 +95,7 @@ h4 {
 a:hover {
   text-decoration: underline !important;
   color: white !important;
-  text-decoration-color: #eba8ef !important;
+  text-decoration-color: #db3eb1 !important;
   text-decoration-thickness: 4px !important;
   text-underline-offset: 5px !important;
   filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
