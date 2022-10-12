@@ -28,6 +28,7 @@ button {
   color: #1a1952;
   list-style: none;
   font-family: "druk", sans-serif;
+  color: white;
   /* margin-block-end: 5vh; */
 }
 hr {
@@ -40,6 +41,7 @@ p {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 20px;
   max-width: 65ch;
+  color: white;
 }
 
 img {
