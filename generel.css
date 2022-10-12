@@ -55,10 +55,11 @@ header {
   justify-content: space-between;
   background-color: #1a1952;
   padding-block-start: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 header p {
   color: white;
-  padding-top: 3em;
 }
 
 h4 {
