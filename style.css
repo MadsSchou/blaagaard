@@ -1,7 +1,9 @@
 * {
   margin: 0 auto;
 }
-
+.content-container {
+  max-width: 1920px;
+}
 main {
   margin: 0;
 }
@@ -10,8 +12,7 @@ figure {
 }
 @media (min-width: 600px) {
   section {
-    /* margin-inline: 20vh; */
-    padding-block: 15vh;
+    margin-inline: 20vh;
     margin-block: 15vh;
     text-decoration: none;
   }
@@ -48,17 +49,12 @@ a {
 #section_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-image: url("billeder/baggrund5.png");
-  background-size: cover;
-  height: 45vh;
 }
 #section_podcast {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   padding: 15px;
-  background-image: url("billeder/baggrund5.png");
-  background-size: cover;
 }
 
 .tekst_podcast {
@@ -70,9 +66,6 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
-  background-image: url("billeder/baggrund5.png");
-  background-size: cover;
-  height: 45vh;
 }
 .play_icon {
   width: 30px;
@@ -88,8 +81,6 @@ input {
 .fortune-wheel {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-image: url("billeder/baggrund2.png");
-  background-size: cover;
 }
 
 #app {
@@ -185,6 +176,7 @@ input {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     color: white;
+    margin: 30px;
   }
   .wheel {
     grid-column: 1/1;
@@ -215,6 +207,7 @@ input {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     color: white;
+    margin: 10px;
   }
   .billede_podcast {
     grid-column: 1/2;
@@ -232,6 +225,7 @@ input {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
+    margin: 20px;
   }
 
   input {
