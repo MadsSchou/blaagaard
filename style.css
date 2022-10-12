@@ -46,19 +46,25 @@ a {
 }
 
 #section_2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   background-image: url("billeder/baggrund5.png");
   background-size: cover;
-  height: 45vh;
+  height: 65vh;
 }
-#section_podcast {
+.section_2-content {
+  max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+}
+#section_podcast {
   padding: 15px;
   background-image: url("billeder/baggrund5.png");
   background-size: cover;
+}
+.podcast-content {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
 .tekst_podcast {
@@ -67,12 +73,16 @@ a {
 }
 
 #section_episoder {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 30px;
   background-image: url("billeder/baggrund5.png");
   background-size: cover;
-  height: 45vh;
+  height: 65vh;
+}
+.episode-content {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
 }
 .play_icon {
   width: 30px;
@@ -86,10 +96,13 @@ input {
 }
 
 .fortune-wheel {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   background-image: url("billeder/baggrund2.png");
   background-size: cover;
+}
+.wheel-content {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 #app {
