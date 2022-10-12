@@ -1,9 +1,7 @@
 * {
   margin: 0 auto;
 }
-.content-container {
-  max-width: 1920px;
-}
+
 main {
   margin: 0;
 }
@@ -12,7 +10,8 @@ figure {
 }
 @media (min-width: 600px) {
   section {
-    margin-inline: 20vh;
+    /* margin-inline: 20vh; */
+    padding-block: 15vh;
     margin-block: 15vh;
     text-decoration: none;
   }
@@ -81,6 +80,8 @@ input {
 .fortune-wheel {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-image: url("billeder/baggrund2.png");
+  background-size: cover;
 }
 
 #app {
