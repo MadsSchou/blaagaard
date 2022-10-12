@@ -67,8 +67,7 @@ a {
   grid-row: 1/1;
 }
 
-#section_podcast {
-  padding: 15px;
+.podcast {
   background-image: url("billeder/baggrund5.png");
   background-size: cover;
 }
@@ -84,7 +83,7 @@ a {
   padding-inline: 7vh;
 }
 
-#section_episoder {
+.episodes {
   gap: 30px;
   background-image: url("billeder/baggrund5.png");
   background-size: cover;
