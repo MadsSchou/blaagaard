@@ -30,9 +30,13 @@ button {
   color: white;
   /* margin-block-end: 5vh; */
 }
+.button1 {
+  display: flex;
+  margin-right: 29rem;
+}
 hr {
   color: #db3eb1;
-  background-color: #db3eb1;
+  background-color: #eba8ef;
   filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
 
   padding: 2px;
