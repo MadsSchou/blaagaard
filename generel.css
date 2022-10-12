@@ -30,6 +30,10 @@ button {
   color: white;
   /* margin-block-end: 5vh; */
 }
+.button1 {
+  display: flex;
+  margin-right: 29rem;
+}
 hr {
   color: #db3eb1;
   background-color: #db3eb1;
