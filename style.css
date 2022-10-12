@@ -55,6 +55,18 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.tekst_2 {
+  padding-top: 50px;
+  grid-column: 1/2;
+  grid-row: 1/1;
+}
+.video_2 {
+  padding-top: 80px;
+
+  grid-column: 2/2;
+  grid-row: 1/1;
+}
+
 #section_podcast {
   padding: 15px;
   background-image: url("billeder/baggrund5.png");
