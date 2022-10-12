@@ -6,7 +6,8 @@ img {
 }
 .portfolio-site {
   padding-top: 5vh;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 #section_portfolio {
