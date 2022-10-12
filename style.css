@@ -148,28 +148,19 @@ input {
 }
 
 .button1 {
-  width: 40%;
+  width: 20%;
   height: 7%;
   margin: 40px auto;
   cursor: pointer;
-  display: flex;
   background-color: #19056c;
-  color: #1a1952;
-  -webkit-text-stroke: 2px white;
-  justify-content: center;
-  border-radius: 100px;
+  color: #ffffff;
 }
 .button2 {
-  width: 18%;
-  height: 100%;
-  margin: 0px auto;
+  width: 20%;
+  margin: 40px auto;
   cursor: pointer;
-  display: flex;
   background-color: #19056c;
-  color: #1a1952;
-  -webkit-text-stroke: 2px white;
-  justify-content: center;
-  border-radius: 100px;
+  color: #ffffff;
 }
 
 /*Mobile*/
